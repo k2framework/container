@@ -1,5 +1,5 @@
 {
-    "name": "k2/event-dispatcher",
+    "name": "k2/container",
     "type": "library",
     "description": "Event Dispatcher de K2Framework",
     "license": "BSD",
@@ -14,8 +14,8 @@
     },
     "autoload": {
         "psr-0":{ 
-            "K2\\EventDispatcher\\": ""
+            "K2\\Di\\": ""
         }
     },
-    "target-dir": "K2/EventDispatcher"
+    "target-dir": "K2/Di"
 }
