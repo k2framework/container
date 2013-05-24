@@ -1,0 +1,21 @@
+{
+    "name": "k2/event-dispatcher",
+    "type": "library",
+    "description": "Event Dispatcher de K2Framework",
+    "license": "BSD",
+    "keywords": ["library event dispatcher"],
+    "authors": [
+        {
+            "name": "Manuel Aguirre",
+            "email": "programador.manuel@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-0":{ 
+            "K2\\EventDispatcher\\": ""
+        }
+    },
+    "target-dir": "K2/EventDispatcher"
+}
